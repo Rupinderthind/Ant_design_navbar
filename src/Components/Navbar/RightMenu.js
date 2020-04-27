@@ -1,5 +1,5 @@
-import React, { Component } from "react";
-import { Menu } from "antd";
+import React, { Component } from 'react';
+import { Menu } from 'antd';
 
 class RightMenu extends Component {
 	render() {

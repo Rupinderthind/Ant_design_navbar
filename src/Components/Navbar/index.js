@@ -1,11 +1,11 @@
-import React, { Component } from "react";
-import LeftMenu from "./LeftMenu";
-import RightMenu from "./RightMenu";
-import { Drawer, Button } from "antd";
+import React, { Component } from 'react';
+import LeftMenu from './LeftMenu';
+import RightMenu from './RightMenu';
+import { Drawer, Button } from 'antd';
 
 class Navbar extends Component {
 	state = {
-		current: "mail",
+		current: 'mail',
 		visible: false
 	};
 	showDrawer = () => {
