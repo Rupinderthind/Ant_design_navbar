@@ -116,7 +116,11 @@
   .rightMenu {
     display: none;
   }
-
+  
+  .menuCon {
+    justify-content: flex-end;
+  }
+  
   .logo a {
     margin-left: -20px;
   }
