@@ -21,7 +21,10 @@
 
 .menuCon {
   width: calc(100% - 150px);
-  float: left;
+  height: 69px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .menuCon .ant-menu-item {
@@ -113,7 +116,11 @@
   .rightMenu {
     display: none;
   }
-
+  
+  .menuCon {
+    justify-content: flex-end;
+  }
+  
   .logo a {
     margin-left: -20px;
   }
